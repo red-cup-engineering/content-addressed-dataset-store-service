@@ -1,0 +1,20 @@
+{
+  "name": "@red-cup-engineering/content-addressed-dataset-store-service",
+  "version": "0.2.2",
+  "type": "module",
+  "files": [
+    "src/"
+  ],
+  "description": "Stores bounded typed datasets as deterministic RMN/CBOR blobs and returns small immutable manifests.",
+  "exports": {
+    ".": "./src/store.mjs"
+  },
+  "dependencies": {
+    "@red-cup-engineering/computer-code-engineering-services-section": "workspace:*",
+    "@red-cup-engineering/computer-content-address-engineering-services-section": "workspace:*"
+  },
+  "scripts": {
+    "check": "node --check src/store.mjs",
+    "test": "node --test test/*.test.mjs"
+  }
+}
