@@ -1,6 +1,6 @@
 {
   "name": "@red-cup-engineering/content-addressed-dataset-store-service",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "type": "module",
   "files": [
     "src/"
@@ -10,8 +10,9 @@
     ".": "./src/store.mjs"
   },
   "dependencies": {
-    "@red-cup-engineering/computer-code-engineering-services-section": "0.1.0",
-    "@red-cup-engineering/computer-content-address-engineering-services-section": "0.2.0"
+    "@red-cup-engineering/computer-content-address-engineering-services-section": "0.2.0",
+    "@red-cup-engineering/computer-data-engineering-services-section": "0.2.0",
+    "@red-cup-engineering/computer-code-engineering-services-section": "0.1.2"
   },
   "scripts": {
     "check": "node --check src/store.mjs",
