@@ -6,6 +6,11 @@
     "src/"
   ],
   "description": "Stores bounded typed datasets as deterministic RMN/CBOR blobs and returns small immutable manifests.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/financial-engineering-services-section.git",
+    "directory": "services/market-data-services-section/services/content-addressed-dataset-store-service"
+  },
   "exports": {
     ".": "./src/store.mjs"
   },
